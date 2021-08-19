@@ -64,9 +64,9 @@ The next step. Type the following in the terminal:
 docker build . -f-docker/application/Dockerfile -t exampleapp
 ```
 The arguments are:
-	- . : the working directory, the building context;
-	- -f-docker/application/Dockerfile : the docker file; 
-	- -t exampleapp : put a tag to the image, so that we can find it here
+- . : the working directory, the building context;
+- -f-docker/application/Dockerfile : the docker file; 
+- -t exampleapp : put a tag to the image, so that we can find it here
 
 Your can find details on buiding images for Docker here:
 https://docs.docker.com/engine/reference/builder/.
