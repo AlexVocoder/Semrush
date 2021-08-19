@@ -66,14 +66,12 @@ docker build . -f-docker/application/Dockerfile -t exampleapp
 The arguments are:
 - . : the working directory, the building context;
 - -f-docker/application/Dockerfile : the docker file; 
-- -t exampleapp : put a tag to the image, so that we can find it here
+- -t exampleapp : put a tag to the image, so that we can find it here.
 
 Your can find details on buiding images for Docker here:
 https://docs.docker.com/engine/reference/builder/.
 
 Below is the list of images:
-
-$ docker images
 
 | REPOSITORY |           TAG |           IMAGE ID |           CREATED |            SIZE |
 | ---------- | ------------- | ------------------ | ----------------- | --------------- |
