@@ -74,8 +74,10 @@ https://docs.docker.com/engine/reference/builder/.
 Below is the list of images:
 
 $ docker images
-REPOSITORY             TAG             IMAGE ID            CREATED             SIZE
-exampleapp             latest          83wse0edc28a        2 seconds ago       153MB
-python                 3.6             05sob8636w3f        6 weeks ago         153MB
+
+| REPOSITORY |           TAG |           IMAGE ID |           CREATED |            SIZE |
+| ---------- | ------------- | ------------------ | ----------------- | --------------- |
+| exampleapp |           latest |        83wse0edc28a |       2 seconds ago |      153MB |
+| python |               3.6 |           05sob8636w3f |       6 weeks ago |        153MB |
 
 Next put this image in the repository.
