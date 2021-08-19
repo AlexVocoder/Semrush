@@ -59,7 +59,7 @@ EXPOSE 8000
 CMD ["python", "/app/application.py"]
 ```
 
-The next step. Type the following in the terminal:
+Type the following in the terminal:
 ```
 docker build . -f-docker/application/Dockerfile -t exampleapp
 ```
