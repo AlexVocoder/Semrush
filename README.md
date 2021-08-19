@@ -1,4 +1,4 @@
-# Preparing an Application Image and the Produciton Environment.s
+# Preparing an Application Image and the Produciton Environment.
 # Deploying the Image
 
 
