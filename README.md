@@ -25,7 +25,7 @@ quickstart_docker/ # The directory of the entire project
 Note:
 Such a directory structure improves control.
 
-To deploy the application you'll need a deploying application. Let's take an example app in Python *application.py* and put it in the *quickstart_docker/application* subdirectory (then you should replace this example app).
+To deploy the application you'll need a deploying application. Let's take an example app in Python *application.py* and put it in the *quickstart_docker/application* subdirectory (you should replace this example app later on).
 
 ```
 import http.server
